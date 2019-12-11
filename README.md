@@ -12,6 +12,8 @@ tar zxvf embeddings.tar.gz
 
 A directory with the name `embeddings` should appear, in the root directory, with 3 json files.
 
+You will need to create a `checkpoints` directory under the root directory.
+
 Commands to train models are structured as below:
 
 ```
