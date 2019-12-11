@@ -18,10 +18,15 @@ Commands to train models are structured as below:
 python run_model.py -model [MODEL_TYPE] -dropout [DROPOUT_KEEP_PROBABILITY] -lr [LEARNING_RATE] -decay [DECAY_RATE] -decay_steps [NUM_DECAY_STEPS] -num_layers [NUM_LAYERS] -layer_units [LAYER_DIMENSIONS] -model_name [MOEL_NAME] -delete_size [NUM_EXAMPLES_FROM_DELETIONS]
 ```
 
-MODEL_TYPES = [feedforward, more_data_feedforward, crf, more_data_crf,
-               subtoken_matching_baseline, return_line_baseline,
-               random_baseline', 'majority_class_random_baseline]
-
+Insert one of the following model types in place of MODEL_TYPE:
+* feedforward
+* more_data_feedforward
+* crf
+* more_data_crf
+* subtoken_matching_baseline
+* return_line_baseline
+* random_baseline
+* majority_class_random_baseline
 
 Matching model types with those in the paper:
 
