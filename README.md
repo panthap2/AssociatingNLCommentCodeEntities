@@ -26,16 +26,16 @@ MODEL_TYPES = [feedforward, more_data_feedforward, crf, more_data_crf,
 Matching model types with those in the paper:
 
 **Learned models:**
-feedforward = binary classifier
-more_data_feedforward = binary classifier w/ data from deletions set
-crf = CRF for joint classification
-mode_data_crf = CRF for joint classication w/ data from deletions set
+* feedforward = binary classifier
+* more_data_feedforward = binary classifier w/ data from deletions set
+* crf = CRF for joint classification
+* mode_data_crf = CRF for joint classication w/ data from deletions set
 
 **Baselines:**
-subtoken_matching_baseline = subtoken matching
-return_line_baseline = presence in return line
-random_baseline = random
-majority_class_random_baseline = weighted random
+* subtoken_matching_baseline = subtoken matching
+* return_line_baseline = presence in return line
+* random_baseline = random
+* majority_class_random_baseline = weighted random
 
 Sample commands can be found in `models/run.sh`.
 
