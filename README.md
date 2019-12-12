@@ -14,7 +14,7 @@ A directory with the name `embeddings` should appear, in the root directory, wit
 
 You will need to create a `checkpoints` directory under the root directory.
 
-Commands to train models are structured as below:
+Run models from within the `models` directory. Commands to train models are structured as below:
 
 ```
 python run_model.py -model [MODEL_TYPE] -dropout [DROPOUT_KEEP_PROBABILITY] -lr [LEARNING_RATE] -decay [DECAY_RATE] -decay_steps [NUM_DECAY_STEPS] -num_layers [NUM_LAYERS] -layer_units [LAYER_DIMENSIONS] -model_name [MOEL_NAME] -delete_size [NUM_EXAMPLES_FROM_DELETIONS]
@@ -36,7 +36,7 @@ Matching model types with those in the paper:
 * feedforward = binary classifier
 * more_data_feedforward = binary classifier w/ data from deletions set
 * crf = CRF for joint classification
-* mode_data_crf = CRF for joint classication w/ data from deletions set
+* more_data_crf = CRF for joint classication w/ data from deletions set
 
 **Baselines:**
 * subtoken_matching_baseline = subtoken matching
