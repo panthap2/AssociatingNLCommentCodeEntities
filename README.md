@@ -1,5 +1,16 @@
-# AssociatingNLCommentCodeEntities
-**Dataset and code corresponding to Associating Natural Language Comment and Source Code Entities (AAAI 2020)**
+# Associating Natural Language Comment and Source Code Entities
+**Code and datasets for our AAAI-2020 paper "Associating Natural Language Comment and Source Code Entities"**
+
+If you find this work useful, please consider citing our paper:
+
+```
+@inproceedings{panthaplackel2020associating,
+  author={Sheena Panthaplackel and Milos Gligoric and Raymond J. Mooney and Junyi Jessy Li},
+  title={Associating Natural Language Comment and Source Code Entities},
+  booktitle={AAAI},
+  year={2020},
+}
+```
 
 Data is available in `model_data/`. It can be parsed using the `load_data` method in `models/model_utils.py`.
 
