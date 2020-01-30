@@ -1,5 +1,5 @@
 # Associating Natural Language Comment and Source Code Entities
-**Code and datasets for our AAAI-2020 paper "Associating Natural Language Comment and Source Code Entities"**, which can be found [here](https://arxiv.org/abs/1912.06728).
+**Code and datasets for our AAAI-2020 paper "Associating Natural Language Comment and Source Code Entities", which can be found [here](https://arxiv.org/abs/1912.06728).**
 
 If you find this work useful, please consider citing our paper:
 
