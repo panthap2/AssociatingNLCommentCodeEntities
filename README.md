@@ -8,6 +8,7 @@ If you find this work useful, please consider citing our paper:
   author={Sheena Panthaplackel and Milos Gligoric and Raymond J. Mooney and Junyi Jessy Li},
   title={Associating Natural Language Comment and Source Code Entities},
   booktitle={AAAI},
+  pages = {8592-8599},
   year={2020},
 }
 ```
